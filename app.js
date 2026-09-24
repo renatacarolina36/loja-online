@@ -12,6 +12,6 @@ function calcular total (itens){
 // antes de retornar o valor final
 
 return total
-}
+
 
     
