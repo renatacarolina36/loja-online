@@ -1,0 +1,16 @@
+name:  CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+    jobs: 
+      test:
+        rus-on: ubuntu-latest 
+        stest:
+        - uses: actions/checkout@v4
+        -name: Instalar dependencias 
+        run: npm install
+        name: Rodan os testes
+        run: npm test
+      - main
